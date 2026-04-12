@@ -132,49 +132,6 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
     cart.forEach((item) => {
 
-        // let subtotal = item.price * item.quantitiy;
-
-        // let html = `
-        // <div class="trex">
-
-        //     <div class="pil">
-
-        //         <div class="imgprctotal">
-        //             <img src="${item.image}" width="80">
-        //         </div>
-
-        //         <div class="specificpr">
-        //             <h6 class="namepr">${item.name}</h6>
-        //             <h6 class="pricepr">$${item.price}</h6>
-        //         </div>
-
-        //     </div>
-
-        //     <div class="quantitymainpr">
-
-        //         <div class="buttonmake">
-        //                <p class="incre">+</p>
-
-        //             <p class="centertext">${item.quantitiy}</p>
-        //                    <p class="decre">-</p>
-
-        //         </div>
-
-        //         <div class="subtotal">
-        //             <h6>$${subtotal}.00</h6>
-        //         </div>
-        //              <div class="deletebutton">
-        //       <i class="bi bi-trash3-fill"></i>
-        //     </div>
-
-        //     </div>
-
-        // </div>
-
-        // <hr>
-        // `;
-
-        // cartContainer.innerHTML += html;
         displaycart();
         document.querySelectorAll(".incre").forEach(bt => {
 
@@ -196,18 +153,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
 
 
-
-
-
-
-
-
-
-
-
             })
-
-
 
 
 
@@ -226,13 +172,6 @@ window.addEventListener("DOMContentLoaded", (e) => {
                 } else {
                     e.target.previousElementSibling.innerText--
                 }
-
-
-
-
-
-
-
 
 
 
@@ -294,23 +233,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
 
             }
-            // 
-
-
-
-
-
-
-
-
-
-
-            // 
-
-
-
-
-
+   
 
 
         })
@@ -319,17 +242,11 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
 
 
-// 
+
 
 
 });
 
-
-
-
-
-
-//
 function displaycart() {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     let cartotals = document.querySelector(".carttotals");
@@ -402,11 +319,6 @@ function displaycart() {
              <div class="divline">
 
             </div>
-
-
-
-
-
 
 
 
@@ -543,13 +455,6 @@ let opy = (text) => {
 
 
 
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
     let searchInput = document.querySelector(".searchInput");
@@ -626,9 +531,6 @@ search.addEventListener('click', () => {
 
 
 
-
-
-
 person.addEventListener('click', () => {
 
 
@@ -694,20 +596,6 @@ function attachEvents() {
             e.target.parentElement.parentElement.children[1].innerText = `$${total}.00`
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         })
 
 
@@ -754,7 +642,6 @@ function attachEvents() {
 
 
 
-
         })
 
 
@@ -762,24 +649,6 @@ function attachEvents() {
 
 
     })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -801,31 +670,7 @@ let Result = [];
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-       
-    
-
-    
-
     Result.push(t)
-
-
-
-
-
-
-
-
 
 
 
