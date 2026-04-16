@@ -11,6 +11,6 @@
   <br>
 Developed a fully responsive 🛒eCommerce store using HTML, CSS, JavaScript, and Bootstrap. The project includes product listings, add-to-cart functionality, and a clean UI/UX design, ensuring a smooth shopping experience across devices.
 <br>
-## 📄 License
+## 📄 License<br>
 This project is licensed under the MIT License.
 
